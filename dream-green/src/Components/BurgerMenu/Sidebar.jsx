@@ -14,9 +14,8 @@ export default props => {
             <a className="menu-item" href="/contacts">
                 Contacts
             </a>
-            <a className="menu-item" href="/desserts">
-                Desserts
-            </a>
+
         </Menu>
     );
 };
+
