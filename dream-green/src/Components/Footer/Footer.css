@@ -1,0 +1,120 @@
+/* Mobile */
+@media only screen and (min-width: 375px) {
+  .footerContainer {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #000000;
+    color: #ffffff;
+  }
+
+  .contact-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0rem 3rem 0 6rem;
+    height: 75%;
+  }
+
+  .icon-description {
+    padding: 3rem 0 1rem 0;
+  }
+  .icon-contact {
+    padding-right: 1rem;
+  }
+  .social-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 1rem;
+    background-color: #344e41;
+    width: 100%;
+    height: 25%;
+  }
+  .social-title {
+    color: #ffffff;
+    font-size: 1rem;
+  }
+  .QR-code_container {
+    display: flex;
+    justify-content: space-around;
+  }
+  .qr-code {
+    width: 15%;
+    height: auto;
+  }
+}
+
+/* iPad */
+@media only screen and (min-width: 768px) {
+  .contact-container {
+    font-size: 2rem;
+    font-weight: 500;
+    padding: 0rem 3rem 0 3rem;
+  }
+  .icon-description {
+    padding: 3rem 0 1.5rem 0;
+  }
+  .social-title {
+    font-size: 2rem;
+    font-weight: 500;
+  }
+}
+
+/* Desktop */
+@media only screen and (min-width: 1080px) {
+  .footerContainer {
+    display: flex;
+  }
+  .blank {
+    height: 60%;
+    width: 100%;
+    background-color: #ffffff;
+  }
+
+  .footer-contact-container {
+    height: 40%;
+    display: flex;
+  }
+  .contact-container {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    padding: 0;
+    font-size: 1rem;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .contact-card1 {
+    padding-right: 1rem;
+  }
+
+  .contact-card2 {
+    padding-left: 1rem;
+  }
+
+  .contact-icon {
+    padding-right: 3rem;
+  }
+  .social-title {
+    font-size: 1.5rem;
+  }
+  .qr-code {
+    width: 15%;
+    height: auto;
+    padding: 1rem;
+  }
+  .QR-code_container {
+    justify-content: center;
+  }
+
+  .social-container {
+    width: 80%;
+    height: 100%;
+    justify-content: space-evenly;
+    padding: 70px 0 70px 0;
+  }
+}
