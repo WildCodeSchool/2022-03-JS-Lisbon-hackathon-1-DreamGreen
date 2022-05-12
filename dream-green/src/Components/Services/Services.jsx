@@ -5,9 +5,10 @@ import { Pagination, Navigation } from "swiper";
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-import SlideOne from '../Images/pexels-pixabay-33783.jpg';
-import SlideThree from '../Images/pexels-jannis-knorr-2933243.jpg';
-import SlideTwo from '../Images/pexels-magda-ehlers-2569839.jpg';
+import SlideThree from '../Images/pexels-pixabay-33783.jpg';
+import SlideTwo from '../Images/pexels-jannis-knorr-2933243.jpg';
+import SlideOne from '../Images/pexels-magda-ehlers-2569839.jpg';
+
 
 function Services() {
     return (
