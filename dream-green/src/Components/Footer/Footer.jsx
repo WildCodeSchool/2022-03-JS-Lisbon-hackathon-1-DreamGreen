@@ -1,18 +1,18 @@
 import React from "react";
-import Patricia from "../../Images/Patricia1.png";
-import Alexandre from "../../Images/Alexandre1.png";
-import Joao from "../../Images/Joao1.png";
-import Lourenço from "../../Images/Lourenco1.png";
-import Santiago from "../../Images/Santiago1.png";
 import { AiOutlineMail, AiTwotonePhone } from "react-icons/ai";
 import { RiMapPinFill } from "react-icons/ri";
 import { FiMap } from "react-icons/fi";
+import { SiLinkedin } from "react-icons/si";
+import Patricia from "../../Images/Patricia.jpeg";
+import Joao from "../../Images/Joao.jpeg";
+import Santiago from "../../Images/Santiago.jpeg";
+import Alexandre from "../../Images/Alexandre.jpeg";
+import Lourenco from "../../Images/Lourenco.jpeg";
 import "./Footer.css";
 
 function Footer() {
   return (
     <div className="footerContainer">
-      <div className="blank"></div>
       <div className="footer-contact-container">
         <div className="contact-container">
           <div className="contact-card1">
@@ -51,7 +51,7 @@ function Footer() {
                 <icon className="icon-contact">
                   <FiMap />
                 </icon>
-                Stockroom
+                Warehouse
               </h3>
               <p>Rua Conde Redondo, 84, Lisbon</p>
             </div>
@@ -59,28 +59,39 @@ function Footer() {
         </div>
         <div className="social-container">
           <h3 className="social-title">The Team behind the Project</h3>
-          <div className="QR-code_container">
-            <img
-              className="qr-code"
-              src={Patricia}
-              alt="Patricia QR code"
-            ></img>
-            <img
-              className="qr-code"
-              src={Alexandre}
-              alt="Patricia QR code"
-            ></img>
-            <img className="qr-code" src={Joao} alt="Patricia QR code"></img>
-            <img
-              className="qr-code"
-              src={Lourenço}
-              alt="Patricia QR code"
-            ></img>
-            <img
-              className="qr-code"
-              src={Santiago}
-              alt="Patricia QR code"
-            ></img>
+          <div className="profile_container">
+            <div className="profile-card">
+              <img className="team-img" src={Patricia} alt="Patricia"></img>
+              <icon className="Linkedin-code">
+                <SiLinkedin />
+              </icon>
+            </div>
+            <div className="profile-card">
+              <img className="team-img" src={Joao} alt="Joao"></img>
+              <icon className="Linkedin-code">
+                <SiLinkedin />
+              </icon>
+            </div>
+            <div className="profile-card">
+              <img className="team-img" src={Alexandre} alt="Alexandre"></img>
+              <icon className="Linkedin-code">
+                <SiLinkedin />
+              </icon>
+            </div>
+
+            <div className="profile-card">
+              <img className="team-img" src={Santiago} alt="Santiago"></img>
+              <icon className="Linkedin-code">
+                <SiLinkedin />
+              </icon>
+            </div>
+
+            <div className="profile-card">
+              <img className="team-img" src={Lourenco} alt="Lourenco"></img>
+              <icon className="Linkedin-code">
+                <SiLinkedin />
+              </icon>
+            </div>
           </div>
         </div>
       </div>

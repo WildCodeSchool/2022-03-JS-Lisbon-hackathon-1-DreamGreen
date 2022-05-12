@@ -14,11 +14,11 @@
     flex-direction: column;
     justify-content: center;
     padding: 0rem 3rem 0 6rem;
-    height: 75%;
+    height: 80%;
   }
 
   .icon-description {
-    padding: 3rem 0 1rem 0;
+    padding: 1rem 0 1rem 0;
   }
   .icon-contact {
     padding-right: 1rem;
@@ -37,11 +37,20 @@
     color: #ffffff;
     font-size: 1rem;
   }
-  .QR-code_container {
+  .profile_container {
     display: flex;
     justify-content: space-around;
   }
-  .qr-code {
+
+  .profile-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .team-img {
+    width: 40px;
+  }
+  .Linkedin-code {
     width: 15%;
     height: auto;
   }
@@ -102,12 +111,12 @@
   .social-title {
     font-size: 1.5rem;
   }
-  .qr-code {
+  .Linkedin-code {
     width: 15%;
     height: auto;
     padding: 1rem;
   }
-  .QR-code_container {
+  .profile_container {
     justify-content: center;
   }
 
