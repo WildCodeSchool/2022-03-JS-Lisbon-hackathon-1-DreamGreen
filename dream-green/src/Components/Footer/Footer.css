@@ -6,7 +6,11 @@
     justify-content: space-around;
     background-color: #000000;
     color: #ffffff;
-    margin-top: 10px;
+    /* margin-top: 10px; */
+  }
+
+  .contacts {
+    color: #ffffff;
   }
 
   .contact-container {
@@ -18,7 +22,7 @@
   }
 
   .icon-description {
-    padding: 1.3em 0 1rem 0;
+    padding: 1.1rem 0 1rem 0;
   }
 
   .icon-contact {
@@ -47,7 +51,7 @@
     justify-content: space-around;
   }
 
-  .qr-code {
+  .Linkedin-code {
     width: 15%;
     height: auto;
   }
@@ -103,6 +107,7 @@
     padding-right: 1rem;
   }
 
+
   .contact-card2 {
     padding-left: 1rem;
   }
@@ -115,7 +120,7 @@
     font-size: 1.5rem;
   }
 
-  .qr-code {
+  .Linkedin-code {
     width: 15%;
     height: auto;
     padding: 1rem;
