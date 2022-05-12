@@ -1,8 +1,9 @@
 import React from 'react';
 import './Services.css';
 import { Swiper, SwiperSlide } from 'swiper/react'
-import { Pagination } from "swiper";
+import { Pagination, Navigation } from "swiper";
 import 'swiper/css';
+import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import SlideOne from '../Images/pexels-pixabay-33783.jpg';
 import SlideThree from '../Images/pexels-jannis-knorr-2933243.jpg';
@@ -14,7 +15,7 @@ function Services() {
             <div className='headerServices'>
                 <h1>Our Services</h1>
             </div>
-            <Swiper pagination={true} modules={[Pagination]} loop={true} className="mySwiper">
+            <Swiper pagination={true} modules={[Pagination, Navigation]} navigation={true} loop={true} className="mySwiper">
                 <SwiperSlide><img src={SlideOne} alt='' /></SwiperSlide>
                 <SwiperSlide><img src={SlideTwo} alt='' /></SwiperSlide>
                 <SwiperSlide><img src={SlideThree} alt='' /></SwiperSlide>
@@ -26,7 +27,7 @@ function Services() {
                     refine it into bio-fuel for agriculture purposes.
                 </p>
             </div>
-            <Swiper pagination={true} modules={[Pagination]} loop={true} className="mySwiper">
+            <Swiper pagination={true} modules={[Pagination, Navigation]} navigation={true} loop={true} className="mySwiper">
                 <SwiperSlide><img src={SlideOne} alt='' /></SwiperSlide>
                 <SwiperSlide><img src={SlideTwo} alt='' /></SwiperSlide>
                 <SwiperSlide><img src={SlideThree} alt='' /></SwiperSlide>
