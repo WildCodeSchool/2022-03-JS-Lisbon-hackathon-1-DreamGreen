@@ -1,24 +1,24 @@
 /* Mobile */
-@media only screen and (max-width: 667px) and (min-width: 375px) {
+@media only screen and (min-width: 375px) {
   .footerContainer {
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    background-color: #b5e48c;
-    color: #000000;
+    background-color: #000000;
+    color: #ffffff;
   }
 
   .contact-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 0rem 2rem 0 2rem;
+    padding: 0rem 3rem 0 6rem;
     height: 75%;
   }
 
   .icon-description {
-    padding: 1.5rem 0 1rem 0;
+    padding: 3rem 0 1rem 0;
   }
   .icon-contact {
     padding-right: 1rem;
@@ -28,7 +28,6 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-
     padding-top: 1rem;
     background-color: #344e41;
     width: 100%;
@@ -49,9 +48,48 @@
 }
 
 /* iPad */
-@media only screen and (max-width: 1024px) and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
+  .contact-container {
+    font-size: 2rem;
+    font-weight: 500;
+    padding: 0rem 3rem 0 3rem;
+  }
+  .icon-description {
+    padding: 3rem 0 1.5rem 0;
+  }
+  .social-title {
+    font-size: 2rem;
+    font-weight: 500;
+  }
 }
 
 /* Desktop */
-@media only screen and (max-width: 1920px) and (min-width: 1080px) {
+@media only screen and (min-width: 1080px) {
+  .footerContainer {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    color: #000000;
+  }
+  .contact-container {
+    display: flex;
+    flex-direction: initial;
+    align-items: center;
+    padding: 0rem 0rem 0 2rem;
+    height: 60%;
+    font-size: 1.2rem;
+  }
+
+  .social-container {
+    height: 40%;
+  }
+
+  .contact-icon {
+    padding-right: 5rem;
+  }
+  .qr-code {
+    width: 10%;
+    height: auto;
+  }
 }
