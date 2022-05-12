@@ -3,6 +3,7 @@ import Footer from "./Components/Footer/Footer";
 import BurgerMenu from "./Components/BurgerMenu/BurgerMenu";
 // import { Routes, Route } from 'react-router-dom';
 import Services from "./Components/Services/Services";
+import AboutUs from "./AboutUs/AboutUs";
 import "./App.css";
 import Form from "./Components/Form/Form";
 
@@ -11,6 +12,7 @@ function App() {
     <div className="App">
       <BurgerMenu />
       <Form />
+      <AboutUs />
       <Services />
       <Footer />
       {/* <Routes>
