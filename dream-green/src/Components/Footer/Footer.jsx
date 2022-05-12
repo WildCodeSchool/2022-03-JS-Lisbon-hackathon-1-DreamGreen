@@ -9,7 +9,7 @@ import { RiMapPinFill } from "react-icons/ri";
 import { FiMap } from "react-icons/fi";
 import "./Footer.css";
 
-function Footer(props) {
+function Footer() {
   return (
     <div className="footerContainer">
       <div className="blank"></div>
