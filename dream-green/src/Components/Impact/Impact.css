@@ -1,0 +1,23 @@
+.impact-main_container {
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.impact-main_container h1 {
+    font-size: 2.5rem;
+}
+
+.impact-citation {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+@media only screen and (min-width: 1000px) {
+    .impact-main_container {
+        padding: 3rem 15rem 3rem 15rem;
+    }
+}
