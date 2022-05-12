@@ -81,7 +81,7 @@
 
 
 
-@media only screen and (min-width: 768px) and (max-width:1080px) {
+@media only screen and (min-width: 768px) {
 
     .bm-menu-wrap {
         width: 30%;
@@ -93,7 +93,7 @@
 
 }
 
-@media only screen and (min-width: 1080px) and (max-width:1920px) {
+@media only screen and (min-width: 1080px) {
 
     .bm-menu-wrap {
         width: 200px;

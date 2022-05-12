@@ -12,7 +12,6 @@ import "./Footer.css";
 function Footer() {
   return (
     <div className="footerContainer">
-      <div className="blank"></div>
       <div className="footer-contact-container">
         <div className="contact-container">
           <div className="contact-card1">
