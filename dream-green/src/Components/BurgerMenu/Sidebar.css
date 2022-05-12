@@ -3,8 +3,8 @@
     position: fixed;
     width: 36px;
     height: 30px;
-    left: 36px;
-    top: 36px;
+    left: 17px;
+    top: 17px;
 }
 
 /* Color/shape of burger icon bars */
@@ -35,16 +35,17 @@
 .bm-menu-wrap {
     position: fixed;
     height: 100%;
-    width: 199px;
+    width: 100vw;
 
 }
 
 /* General sidebar styles */
 .bm-menu {
     background: #344e41;
-    padding: 2.5em 1.5em 0;
-    font-size: 1.15em;
+    padding: .5em 1em 0;
+    font-size: 2.15em;
     overflow: none;
+
 }
 
 /* Morph shape necessary with bubble or elastic */
@@ -82,21 +83,36 @@
 
 
 @media only screen and (min-width: 768px) {
+    .bm-burger-button {
+        position: fixed;
+        width: 53px;
+        height: 53px;
+        left: 27px;
+        top: 27px;
+    }
 
     .bm-menu-wrap {
         width: 30%;
     }
 
     .bm-menu {
-        font-size: 1.15em;
+        padding: .5em .5em 0;
+        font-size: 2.15em;
     }
 
 }
 
 @media only screen and (min-width: 1080px) {
+    .bm-burger-button {
+        position: fixed;
+        width: 67px;
+        height: 67px;
+        left: 36px;
+        top: 36px;
+    }
 
     .bm-menu-wrap {
-        width: 200px;
+        width: 25vw;
     }
 
     /* General sidebar styles */
