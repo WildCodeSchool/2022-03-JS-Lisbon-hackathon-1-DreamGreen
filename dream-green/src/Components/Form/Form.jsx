@@ -10,10 +10,10 @@ function Form() {
 
     return (
         <div>
-            <div>
+            <div className='form-title-container'>
                 <h1 className='form-title'>SCHEDULE OIL COLLECTION</h1>
             </div>
-            <form className='main-form' onSubmit={handleSubmit(onSubmit)}>
+            <form className='main-form justify-content-center' onSubmit={handleSubmit(onSubmit)}>
                 <div class="form-group row">
                     <label class="col-sm-2 col-form-label">Company Name</label>
                     <div class="col-sm-10">
