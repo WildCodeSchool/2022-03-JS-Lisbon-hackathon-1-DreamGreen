@@ -1,13 +1,31 @@
+ .main-form {
+     padding: 1rem 3rem 3rem 3rem;
+ }
+
  .form {
      display: flex;
      flex-direction: column;
      align-items: center;
-     justify-content: center;
+     justify-content: center
  }
+
+ .form-title {
+     font-size: 1.5rem;
+     padding-top: 3rem;
+ }
+
 
  input,
  select {
      width: 60vw !important;
+ }
+
+ button {
+     width: 40vw !important;
+ }
+
+ .form-button_container {
+     padding-top: 1.5rem;
  }
 
  .form-main-container {
@@ -39,4 +57,42 @@
      color: #fff;
      background-color: #007bff;
      border-color: #007bff;
+ }
+
+ @media only screen and (min-width: 768px) {
+     button {
+         width: 20vw !important;
+     }
+
+     .main-form {
+         padding: 3rem 3rem 3rem 3rem;
+     }
+ }
+
+ @media only screen and (min-width: 1200px) {
+     button {
+         width: 10vw !important;
+     }
+
+     .row {
+         display: flex;
+         justify-content: center;
+     }
+
+     input,
+     select {
+         width: 40vw !important;
+     }
+
+     .form-group {
+         width: 82vw;
+     }
+
+     .main-form {
+         padding: 3rem 3rem 3rem 3rem;
+     }
+
+     .form-button_container {
+         padding-top: 3rem;
+     }
  }

@@ -11,9 +11,9 @@ function Form() {
     return (
         <div>
             <div>
-
+                <h1 className='form-title'>SCHEDULE OIL COLLECTION</h1>
             </div>
-            <form onSubmit={handleSubmit(onSubmit)}>
+            <form className='main-form' onSubmit={handleSubmit(onSubmit)}>
                 <div class="form-group row">
                     <label class="col-sm-2 col-form-label">Company Name</label>
                     <div class="col-sm-10">
@@ -56,7 +56,9 @@ function Form() {
                         <input type="text" class="form-control" placeholder="Additional comments" {...register("Additional comments", {})} />
                     </div>
                 </div>
-                <input className='btn btn-primary' type="submit" />
+                <div className='form-button_container'>
+                    <button className='btn btn-primary submit-button' type="submit">Submit</button>
+                </div>
             </form>
         </div>
     );
