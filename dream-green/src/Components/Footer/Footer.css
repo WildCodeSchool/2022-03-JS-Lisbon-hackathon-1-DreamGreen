@@ -1,0 +1,57 @@
+/* Mobile */
+@media only screen and (max-width: 667px) and (min-width: 375px) {
+  .footerContainer {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #b5e48c;
+    color: #000000;
+  }
+
+  .contact-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0rem 2rem 0 2rem;
+    height: 75%;
+  }
+
+  .icon-description {
+    padding: 1.5rem 0 1rem 0;
+  }
+  .icon-contact {
+    padding-right: 1rem;
+  }
+  .social-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    padding-top: 1rem;
+    background-color: #344e41;
+    width: 100%;
+    height: 25%;
+  }
+  .social-title {
+    color: #ffffff;
+    font-size: 1rem;
+  }
+  .QR-code_container {
+    display: flex;
+    justify-content: space-around;
+  }
+  .qr-code {
+    width: 15%;
+    height: auto;
+  }
+}
+
+/* iPad */
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+}
+
+/* Desktop */
+@media only screen and (max-width: 1920px) and (min-width: 1080px) {
+}
