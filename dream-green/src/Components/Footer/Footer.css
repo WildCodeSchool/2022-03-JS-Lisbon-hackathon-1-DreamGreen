@@ -66,30 +66,55 @@
 /* Desktop */
 @media only screen and (min-width: 1080px) {
   .footerContainer {
-    height: 100vh;
     display: flex;
-    flex-direction: column;
+  }
+  .blank {
+    height: 60%;
+    width: 100%;
     background-color: #ffffff;
-    color: #000000;
+  }
+
+  .footer-contact-container {
+    height: 40%;
+    display: flex;
   }
   .contact-container {
     display: flex;
-    flex-direction: initial;
+    flex-direction: row;
+    width: 70%;
+    padding: 0;
+    font-size: 1rem;
+    justify-content: space-evenly;
     align-items: center;
-    padding: 0rem 0rem 0 2rem;
-    height: 60%;
-    font-size: 1.2rem;
   }
 
-  .social-container {
-    height: 40%;
+  .contact-card1 {
+    padding-right: 1rem;
+  }
+
+  .contact-card2 {
+    padding-left: 1rem;
   }
 
   .contact-icon {
-    padding-right: 5rem;
+    padding-right: 3rem;
+  }
+  .social-title {
+    font-size: 1.5rem;
   }
   .qr-code {
-    width: 10%;
+    width: 15%;
     height: auto;
+    padding: 1rem;
+  }
+  .QR-code_container {
+    justify-content: center;
+  }
+
+  .social-container {
+    width: 80%;
+    height: 100%;
+    justify-content: space-evenly;
+    padding: 70px 0 70px 0;
   }
 }
