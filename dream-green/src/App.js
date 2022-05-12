@@ -1,10 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 import Services from "./Components/Services/Services";
-// import Footer from "./Components/Footer";
-
 import React from "react";
-import { Routes, Route } from "react-dom";
-import Footer from "./Components/Footer";
+// import Footer from "./Components/Footer";
 import "./App.css";
 import Form from "./Components/Form/Form";
 
@@ -13,7 +10,7 @@ function App() {
 
     <Routes>
       <Route path="/services" element={<Services />}></Route>
-      <Route path="/footer" element={<Footer />}></Route>
+      {/* <Route path="/footer" element={<Footer />}></Route> */}
       <Route path="/form" element={<Form />}></Route>
     </Routes>
 
