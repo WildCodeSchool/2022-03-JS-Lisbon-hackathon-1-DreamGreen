@@ -6,6 +6,7 @@ import Services from "./Components/Services/Services";
 import AboutUs from "./AboutUs/AboutUs";
 import "./App.css";
 import Form from "./Components/Form/Form";
+import Impact from "./Components/Impact/Impact";
 
 function App() {
   return (
@@ -13,8 +14,10 @@ function App() {
       <BurgerMenu />
       <Form />
       <AboutUs />
+      <Impact />
       <Services />
       <Footer />
+
       {/* <Routes>
         <Route path="/services" element={<Services />}></Route>
         <Route path="/footer" element={<Footer />}></Route>
