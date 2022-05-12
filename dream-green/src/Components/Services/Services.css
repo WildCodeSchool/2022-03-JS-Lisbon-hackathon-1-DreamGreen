@@ -1,0 +1,68 @@
+/* Mobile */
+@media only screen and (max-width: 667px) and (min-width: 375px) {
+
+    body {
+        /* background: #eee; */
+        background: rgb(186, 186, 186);
+      
+        font-size: 15px;
+        color: #000;
+        margin: 0;
+        padding: 0;
+
+    }
+
+    .services-container {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .services-description {
+        background-color: rgb(255, 255, 255, 0.8);
+        border-radius: 10px;
+        width: 80%;
+        align-self: center;
+    }
+
+    .swiper {
+        width: 100%;
+        height: 280px;
+        
+    }
+
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+
+    .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+}
+
+/* iPad */
+/* @media only screen and (max-width: 1024px) and (min-width: 768px) {
+} */
+
+/* Desktop */
+/* @media only screen and (max-width: 1920px) and (min-width: 1080px) {
+} */
