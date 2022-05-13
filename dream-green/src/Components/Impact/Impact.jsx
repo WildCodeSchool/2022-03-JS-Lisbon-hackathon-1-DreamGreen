@@ -3,7 +3,7 @@ import "./Impact.css"
 
 function Impact() {
     return (
-        <div className='impact-main_container'>
+        <div className='impact-main_container' id='impact'>
             <h1>Environmental Benefits of Recycling Used Cooking Oil</h1>
             <div className='cardOne'>
                 <p> <b> The rendering industry removes

@@ -4,7 +4,7 @@ import LogoOilentAbout from '../Components/Images/Folhas.png'
 
 function AboutUs() {
     return (
-        <div className='about-container'>
+        <div className='about-container' id='about'>
             <div className="about-title">
                 <h1>About OilentGreen</h1>
             </div>

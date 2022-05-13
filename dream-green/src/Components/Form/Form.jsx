@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { useForm } from "react-hook-form";
 import "./Form.css";
 import "./bootstrap.css";
@@ -9,6 +9,7 @@ function Form() {
   const {
     register,
     handleSubmit,
+    // eslint-disable-next-line no-unused-vars
     formState: { errors },
   } = useForm();
 
@@ -18,9 +19,9 @@ function Form() {
   };
 
   return (
-    <div>
+    <div id="schedule">
       {submitted ? (
-        <div className="popup-main-container">
+        <div className="popup-main-container" >
           <h1 className="submit-title">Submitted information</h1>
           <div className="form-info">
             <div>The company name is {`${schedule.company_name}`}</div>

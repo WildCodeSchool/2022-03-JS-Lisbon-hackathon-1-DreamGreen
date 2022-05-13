@@ -13,7 +13,7 @@ import SlideSix from '../Images/pexels-tima-miroshnichenko-6169056.jpg'
 
 function Services() {
     return (
-        <div className='services-container'>
+        <div className='services-container' id='services'>
             <div className='headerServices'>
                 <h1>Our Services</h1>
             </div>
