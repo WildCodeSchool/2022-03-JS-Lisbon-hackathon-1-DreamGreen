@@ -5,9 +5,7 @@ function HomePage() {
     return (
         <div className='home-container'>
             <div className='main-header'>
-                <h1>
-                    Renew. Recycle. Reuse
-                </h1>
+                Renew. Recycle. Reuse
             </div>
         </div>
     );
