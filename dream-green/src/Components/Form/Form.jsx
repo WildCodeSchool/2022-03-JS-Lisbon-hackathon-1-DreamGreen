@@ -31,9 +31,9 @@ function Form() {
             <div>Telephone number: {`${schedule.tel_number}`}</div>
 
             <div>
-              Your oil disposal of {`${schedule.oil_quantity}`} litres will save{" "}
+              Your oil disposal of {`${schedule.oil_quantity}`} litres will save{" "} <b>
               {parseInt(schedule.oil_quantity) * 3} Kg in CO<sub>2</sub>{" "}
-              emissions!
+              emissions! </b>
             </div>
 
             <div>
