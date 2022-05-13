@@ -3,6 +3,11 @@ import { AiOutlineMail, AiTwotonePhone } from "react-icons/ai";
 import { RiMapPinFill } from "react-icons/ri";
 import { FiMap } from "react-icons/fi";
 import { SiLinkedin } from "react-icons/si";
+import Patricia from "../../Images/Patricia.jpeg";
+import Joao from "../../Images/Joao.jpeg";
+import Santiago from "../../Images/Santiago.jpeg";
+import Alexandre from "../../Images/Alexandre.jpeg";
+import Lourenco from "../../Images/Lourenco.jpeg";
 import "./Footer.css";
 
 function Footer() {
@@ -54,6 +59,41 @@ function Footer() {
         </div>
         <div className="social-container">
           <h3 className="social-title">The Team behind the Project</h3>
+
+          <div className="profile_container">
+            <div className="profile-card">
+              <img className="team-img" src={Patricia} alt="Patricia"></img>
+              <icon className="Linkedin-code">
+                <SiLinkedin />
+              </icon>
+            </div>
+            <div className="profile-card">
+              <img className="team-img" src={Joao} alt="Joao"></img>
+              <icon className="Linkedin-code">
+                <SiLinkedin />
+              </icon>
+            </div>
+            <div className="profile-card">
+              <img className="team-img" src={Alexandre} alt="Alexandre"></img>
+              <icon className="Linkedin-code">
+                <SiLinkedin />
+              </icon>
+            </div>
+
+            <div className="profile-card">
+              <img className="team-img" src={Santiago} alt="Santiago"></img>
+              <icon className="Linkedin-code">
+                <SiLinkedin />
+              </icon>
+            </div>
+
+            <div className="profile-card">
+              <img className="team-img" src={Lourenco} alt="Lourenco"></img>
+              <icon className="Linkedin-code">
+                <SiLinkedin />
+              </icon>
+            </div>
+
           <div className="QR-code_container">
             <icon className="Linkedin-code">
               <SiLinkedin />
