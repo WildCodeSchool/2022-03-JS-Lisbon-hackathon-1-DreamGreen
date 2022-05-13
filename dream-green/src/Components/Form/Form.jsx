@@ -3,26 +3,15 @@ import { useForm } from 'react-hook-form';
 import "./Form.css"
 import "./bootstrap.css"
 
-
-
-
 function Form() {
     const [schedule, setSchedule] = useState();
     const [submitted, setSubmitted] = useState(false);
-    // const { schedule, setSchedule, submitted, setSubmitted } = useContext(CurrentContext);
     const { register, handleSubmit, formState: { errors } } = useForm();
 
-    let date_time;
     const onSubmit = (data) => {
         setSchedule(data)
         setSubmitted(true)
-
-        //date_time[0] = date
-        //date_time[1] = time
     }
-
-
-    // console.log(errors);
 
     return (
         <div>
