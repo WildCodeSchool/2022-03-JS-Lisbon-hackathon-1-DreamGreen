@@ -11,7 +11,7 @@ function Form() {
     return (
         <div>
             <div className='form-title-container'>
-                <h1 className='form-title'>SCHEDULE OIL COLLECTION</h1>
+                <h1 className='form-title'>SCHEDULE YOUR OIL COLLECTION</h1>
             </div>
             <form className='main-form justify-content-center' onSubmit={handleSubmit(onSubmit)}>
                 <div class="form-group row">
@@ -36,11 +36,11 @@ function Form() {
                     <label class="col-sm-2 col-form-label">Oil quantity</label>
                     <div class="col-sm-10">
                         <select class="form-control" {...register("Oil quantity", { required: true })}>
-                            <option value="10L-20L">10L-20L</option>
-                            <option value="20L-30L">20L-30L</option>
-                            <option value="30L-40L">30L-40L</option>
-                            <option value="40L-50L">40L-50L</option>
-                            <option value="+50L">+50L</option>
+                            <option value="50L-100L">50L-100L</option>
+                            <option value="100L-150L">100L-150L</option>
+                            <option value="150L-200L">150L-200L</option>
+                            <option value="200L-300L">200L-300L</option>
+                            <option value="+300L">+300L</option>
                         </select>
                     </div>
                 </div>

@@ -1,11 +1,15 @@
 /* Mobile */
 @media only screen and (min-width: 375px) {
   .footerContainer {
-    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     background-color: #000000;
+    color: #ffffff;
+    /* margin-top: 10px; */
+  }
+
+  .contacts {
     color: #ffffff;
   }
 
@@ -19,28 +23,39 @@
 
   .icon-description {
     padding: 1rem 0 1rem 0;
+    height: 65%;
   }
+
+  .icon-description {
+    padding: 1.1rem 0 1rem 0;
+  }
+
   .icon-contact {
     padding-right: 1rem;
   }
+
   .social-container {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    padding-top: 1rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
     background-color: #344e41;
     width: 100%;
-    height: 25%;
+    height: 35%;
   }
+
   .social-title {
     color: #ffffff;
     font-size: 1rem;
   }
+
   .profile_container {
     display: flex;
     justify-content: space-around;
   }
+
 
   .profile-card {
     display: flex;
@@ -50,6 +65,7 @@
   .team-img {
     width: 40px;
   }
+
   .Linkedin-code {
     width: 15%;
     height: auto;
@@ -62,10 +78,13 @@
     font-size: 2rem;
     font-weight: 500;
     padding: 0rem 3rem 0 3rem;
+    height: 100%;
   }
+
   .icon-description {
     padding: 3rem 0 1.5rem 0;
   }
+
   .social-title {
     font-size: 2rem;
     font-weight: 500;
@@ -77,6 +96,7 @@
   .footerContainer {
     display: flex;
   }
+
   .blank {
     height: 60%;
     width: 100%;
@@ -87,6 +107,7 @@
     height: 40%;
     display: flex;
   }
+
   .contact-container {
     display: flex;
     flex-direction: row;
@@ -101,6 +122,7 @@
     padding-right: 1rem;
   }
 
+
   .contact-card2 {
     padding-left: 1rem;
   }
@@ -108,14 +130,17 @@
   .contact-icon {
     padding-right: 3rem;
   }
+
   .social-title {
     font-size: 1.5rem;
   }
+
   .Linkedin-code {
     width: 15%;
     height: auto;
     padding: 1rem;
   }
+
   .profile_container {
     justify-content: center;
   }

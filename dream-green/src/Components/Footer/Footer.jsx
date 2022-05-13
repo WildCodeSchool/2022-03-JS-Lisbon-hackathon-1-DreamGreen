@@ -23,7 +23,7 @@ function Footer() {
                 </icon>
                 Contact
               </h3>
-              <p>+351214443322</p>
+              <p className="contacts">+351214443322</p>
             </div>
             <div className="contact-icon1">
               <h3 className="icon-description">
@@ -32,7 +32,7 @@ function Footer() {
                 </icon>
                 Email
               </h3>
-              <p>dream-green@wildcode.com</p>
+              <p className="contacts">dream-green@wildcode.com</p>
             </div>
           </div>
 
@@ -44,7 +44,7 @@ function Footer() {
                 </icon>
                 Office
               </h3>
-              <p>Rua Visconde Santarém, 73B, Lisbon</p>
+              <p className="contacts">Rua Visconde Santarém, 73B, Lisbon</p>
             </div>
             <div className="contact-icon">
               <h3 className="icon-description">
@@ -53,12 +53,13 @@ function Footer() {
                 </icon>
                 Warehouse
               </h3>
-              <p>Rua Conde Redondo, 84, Lisbon</p>
+              <p className="contacts">Rua Conde Redondo, 84, Lisbon</p>
             </div>
           </div>
         </div>
         <div className="social-container">
           <h3 className="social-title">The Team behind the Project</h3>
+
           <div className="profile_container">
             <div className="profile-card">
               <img className="team-img" src={Patricia} alt="Patricia"></img>
@@ -92,6 +93,23 @@ function Footer() {
                 <SiLinkedin />
               </icon>
             </div>
+
+          <div className="QR-code_container">
+            <icon className="Linkedin-code">
+              <SiLinkedin />
+            </icon>
+            <icon className="Linkedin-code">
+              <SiLinkedin />
+            </icon>
+            <icon className="Linkedin-code">
+              <SiLinkedin />
+            </icon>
+            <icon className="Linkedin-code">
+              <SiLinkedin />
+            </icon>
+            <icon className="Linkedin-code">
+              <SiLinkedin />
+            </icon>
           </div>
         </div>
       </div>

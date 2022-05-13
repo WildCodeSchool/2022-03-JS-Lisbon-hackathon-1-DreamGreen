@@ -1,80 +1,75 @@
-/* Mobile */
-@media only screen and (min-width: 375px) {
+body {
+    /* background: #eee; */
+    background: whitesmoke;
+    color: #000;
+    margin: 0;
+    padding: 0;
 
-    body {
-        /* background: #eee; */
-        background: whitesmoke;
-        color: #000;
-        margin: 0;
-        padding: 0;
+}
 
-    }
+.services-container {
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
 
-    .services-container {
-        /* height: 100vh; */
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-    }
+.headerServices {
+    align-self: center;
+    text-align: center;
+    color: #344E41;
+}
 
-    .headerServices {
-        align-self: center;
-        text-align: center;
-        color: #344E41;
-    }
-
-    .services-description {
-        /* background-color: rgb(255, 255, 255, 0.8);
+.services-description {
+    /* background-color: rgb(255, 255, 255, 0.8);
         border-radius: 10px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
-        font-size: 18px;
-        width: 80%;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        align-self: center;
-        text-align: center;
-        color: #344E41;
-        border-top: 1px solid;
-        border-bottom: 1px solid;
+    font-size: 18px;
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-self: center;
+    text-align: center;
+    color: #344E41;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
 
-    }
+}
 
-    .swiper {
-        width: 100%;
-        height: 250px;
+.swiper {
+    width: 100%;
+    height: 250px;
 
-    }
+}
 
-    .swiper-slide {
-        text-align: center;
-        font-size: 18px;
-        background: #fff;
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: -webkit-flex;
-        display: flex;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        -webkit-justify-content: center;
-        justify-content: center;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        -webkit-align-items: center;
-        align-items: center;
-    }
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
 
-    .swiper-slide img {
-        display: block;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 
-    .swiper-button-next,
-    .swiper-button-prev {
-        display: none !important;
-    }
-
+.swiper-button-next,
+.swiper-button-prev {
+    display: none !important;
 }
 
 /* iPad */
@@ -103,7 +98,8 @@
         width: 70%;
         height: 600px;
     }
-    .services-description{
+
+    .services-description {
         width: 70%;
         font-size: 20px;
     }
