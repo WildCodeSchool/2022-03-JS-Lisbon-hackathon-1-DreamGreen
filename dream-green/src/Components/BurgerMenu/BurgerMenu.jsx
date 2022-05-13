@@ -12,7 +12,7 @@ function BurgerMenu() {
                 </div>
             </div>
             <div className='logo-img'>
-                <img src={Logo}></img>
+                <img src={Logo} alt=''></img>
             </div>
         </div>
     );
