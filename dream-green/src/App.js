@@ -14,9 +14,9 @@ function App() {
     <div className="App">
       <BurgerMenu />
       <HomePage />
+      <Services />
       <AboutUs />
       <Impact />
-      <Services />
       <Form />
       <Footer />
 
