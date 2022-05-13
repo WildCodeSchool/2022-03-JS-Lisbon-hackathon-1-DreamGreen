@@ -1,0 +1,138 @@
+/* Mobile */
+@media only screen and (min-width: 375px) {
+  .footerContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #000000;
+    color: #ffffff;
+  }
+
+  .contacts {
+    color: #ffffff;
+    font-size: 1rem;
+  }
+
+  .contact-container {
+    display: grid;
+    justify-content: center;
+    padding: 50px;
+  }
+
+  .icon-description {
+    font-size: 1rem;
+    padding: 1rem 0 1rem 0;
+    height: 65%;
+  }
+
+  .icon-description {
+    padding: 1rem 0 1rem 0;
+  }
+
+  .icon-contact {
+    padding-right: 1rem;
+  }
+
+  .social-container {
+    display: grid;
+    flex-direction: column;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #344e41;
+    padding: 40px;
+    /* margin-top: 0.3rem; */
+    text-align: center;
+  }
+
+  .social-title {
+    color: #ffffff;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .profile_container {
+    display: flex;
+    /* align-items: center; */
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .profile-card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+  }
+  .team-img {
+    width: 127px;
+    border-radius: 160px;
+  }
+
+  .Linkedin-code svg {
+    width: 35px;
+    height: auto;
+    align-self: center;
+  }
+}
+
+/* iPad */
+@media only screen and (min-width: 768px) {
+  .contact-container {
+    font-size: 2rem;
+    font-weight: 500;
+    padding: 0rem 3rem 2rem 3rem;
+    height: 100%;
+  }
+
+  .icon-description {
+    font-size: 2rem;
+    padding: 2rem 0 1.2rem 0;
+  }
+
+  .contacts {
+    color: #ffffff;
+    font-size: 1.8rem;
+  }
+
+  .social-title {
+    font-size: 2.5rem;
+    font-weight: 500;
+  }
+}
+
+/* Desktop */
+@media only screen and (min-width: 1080px) {
+  .icon-description {
+    font-size: 1.2rem;
+    padding: 2rem 0 1.2rem 0;
+  }
+
+  .contacts {
+    color: #ffffff;
+    font-size: 1rem;
+  }
+
+  .footer-contact-container {
+    height: 40%;
+    display: flex;
+  }
+
+  .contact-container {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    padding: 0;
+    font-size: 1rem;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .team-img {
+    width: 70px;
+  }
+  .Linkedin-code svg {
+    width: 30px;
+  }
+}

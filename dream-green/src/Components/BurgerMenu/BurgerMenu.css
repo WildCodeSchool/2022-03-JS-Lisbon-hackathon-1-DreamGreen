@@ -1,0 +1,27 @@
+.logo {
+    /* height: 6vh; */
+
+}
+
+.logo-img {
+
+    position: absolute;
+    top: -142px;
+    right: -274px;
+    /* width: 20px; */
+    transform: scale(.15);
+}
+
+@media only screen and (min-width: 768) {
+    .logo-img {
+        position: absolute;
+
+        transform: scale(2);
+    }
+}
+
+@media only screen and (min-width: 1080) {
+    .logo-img {
+        transform: scale(1);
+    }
+}
