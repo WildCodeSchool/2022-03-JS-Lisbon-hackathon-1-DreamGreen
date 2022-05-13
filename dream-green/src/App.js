@@ -14,10 +14,10 @@ function App() {
     <div className="App">
       <BurgerMenu />
       <HomePage />
-      <Form />
       <AboutUs />
       <Impact />
       <Services />
+      <Form />
       <Footer />
 
       {/* <Routes>
