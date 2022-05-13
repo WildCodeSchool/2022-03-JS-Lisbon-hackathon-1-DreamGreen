@@ -58,37 +58,47 @@ function Footer() {
           </div>
         </div>
         <div className="social-container">
-          <h3 className="social-title">The Team behind the Project</h3>
+          <h3 className="social-title">The Team behind the Dream Green</h3>
 
           <div className="profile_container">
             <div className="profile-card">
-              <img className="team-img" src={Patricia} alt="Patricia"></img>
+              <a href="https://www.linkedin.com/in/patricia-saraiva-dm/">
+                <img className="team-img" src={Patricia} alt="Patricia"></img>
+              </a>
               <icon className="Linkedin-code">
                 <SiLinkedin />
               </icon>
             </div>
             <div className="profile-card">
-              <img className="team-img" src={Joao} alt="Joao"></img>
+              <a href="https://www.linkedin.com/in/jo%C3%A3o-sassetti-5bab05184/">
+                <img className="team-img" src={Joao} alt="Joao"></img>
+              </a>
               <icon className="Linkedin-code">
                 <SiLinkedin />
               </icon>
             </div>
             <div className="profile-card">
-              <img className="team-img" src={Alexandre} alt="Alexandre"></img>
+              <a href="https://www.linkedin.com/in/alexandresilvacosta/">
+                <img className="team-img" src={Alexandre} alt="Alexandre"></img>
+              </a>
               <icon className="Linkedin-code">
                 <SiLinkedin />
               </icon>
             </div>
 
             <div className="profile-card">
-              <img className="team-img" src={Santiago} alt="Santiago"></img>
+              <a href="https://www.linkedin.com/in/santiago-l-b7ba00227/">
+                <img className="team-img" src={Santiago} alt="Santiago"></img>
+              </a>
               <icon className="Linkedin-code">
                 <SiLinkedin />
               </icon>
             </div>
 
             <div className="profile-card">
-              <img className="team-img" src={Lourenco} alt="Lourenco"></img>
+              <a href="https://www.linkedin.com/in/louren%C3%A7o-morej%C3%B3n-06948811a/">
+                <img className="team-img" src={Lourenco} alt="Lourenco"></img>
+              </a>
               <icon className="Linkedin-code">
                 <SiLinkedin />
               </icon>
