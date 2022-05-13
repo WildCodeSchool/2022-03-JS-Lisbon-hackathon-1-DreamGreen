@@ -94,22 +94,6 @@ function Footer() {
               </icon>
             </div>
 
-          <div className="QR-code_container">
-            <icon className="Linkedin-code">
-              <SiLinkedin />
-            </icon>
-            <icon className="Linkedin-code">
-              <SiLinkedin />
-            </icon>
-            <icon className="Linkedin-code">
-              <SiLinkedin />
-            </icon>
-            <icon className="Linkedin-code">
-              <SiLinkedin />
-            </icon>
-            <icon className="Linkedin-code">
-              <SiLinkedin />
-            </icon>
           </div>
         </div>
       </div>
