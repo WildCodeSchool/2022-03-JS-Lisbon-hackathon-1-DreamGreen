@@ -1,11 +1,15 @@
 import React from 'react';
 import './AboutUs.css'
+import LogoOilentAbout from '../Components/Images/Folhas.png'
 
 function AboutUs() {
     return (
         <div className='about-container'>
             <div className="about-title">
                 <h1>About OilentGreen</h1>
+            </div>
+            <div className='logoOilent'>
+                <img src={LogoOilentAbout} alt='' />
             </div>
             <div className="about-description">
                 <p>We are DreamGreen, a company that strives to make our world greener everyday!

@@ -8,7 +8,6 @@ body {
 }
 
 .services-container {
-    /* height: 100vh; */
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -18,12 +17,10 @@ body {
     align-self: center;
     text-align: center;
     color: #344E41;
+    margin-top: 5px;
 }
 
 .services-description {
-    /* background-color: rgb(255, 255, 255, 0.8);
-        border-radius: 10px;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
     font-size: 18px;
     width: 80%;
     margin-top: 10px;
@@ -33,7 +30,18 @@ body {
     color: #344E41;
     border-top: 1px solid;
     border-bottom: 1px solid;
+}
 
+.services-description-last {
+    font-size: 18px;
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-self: center;
+    text-align: center;
+    color: #344E41;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
 }
 
 .swiper {

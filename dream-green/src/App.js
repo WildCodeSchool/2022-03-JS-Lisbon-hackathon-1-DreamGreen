@@ -7,11 +7,13 @@ import AboutUs from "./AboutUs/AboutUs";
 import "./App.css";
 import Form from "./Components/Form/Form";
 import Impact from "./Components/Impact/Impact";
+import HomePage from "./Components/HomePage/HomePage";
 
 function App() {
   return (
     <div className="App">
       <BurgerMenu />
+      <HomePage />
       <Form />
       <AboutUs />
       <Impact />
